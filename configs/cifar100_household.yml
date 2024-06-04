@@ -1,0 +1,9 @@
+dataset_name: household
+base_dataset: cifar100
+dataset_classes:
+  - name: furniture 
+    class_type: head
+    old_labels: [5, 20, 25, 84, 94]
+  - name: electrical_devices
+    class_type: tail
+    old_labels: [22, 39, 40, 86, 87]

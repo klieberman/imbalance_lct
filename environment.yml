@@ -1,0 +1,16 @@
+name: imbalance
+channels:
+  - defaults
+dependencies:
+  - pytorch
+  - pytorch-cuda=11.8
+  - torchaudio
+  - torchvision
+  - tqdm
+  - tensorboard
+  - conda-forge::torch-ema
+  - pandas
+  - scikit-learn
+  - ipykernel
+  - matplotlib
+  - seaborn

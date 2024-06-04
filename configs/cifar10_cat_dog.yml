@@ -1,0 +1,9 @@
+dataset_name: "cat_dog"
+base_dataset: cifar10
+dataset_classes:
+  - name: cat 
+    class_type: head
+    old_labels: [3]
+  - name: dog
+    class_type: tail
+    old_labels: [5]

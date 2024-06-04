@@ -1,0 +1,7 @@
+dataset_name: "cifar10_exp"
+base_dataset: "cifar10" 
+imb_type: "exp"
+dataset_classes:
+lr_steps: 
+grad_max_norm:
+eval_with_ema: False

@@ -1,0 +1,9 @@
+dataset_name: animal_vehicle
+base_dataset: cifar10
+dataset_classes:
+  - name: animal 
+    class_type: head
+    old_labels: [2, 3, 4, 5, 6, 7]
+  - name: vehicle
+    class_type: tail
+    old_labels: [0, 1, 8, 9]
